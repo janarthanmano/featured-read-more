@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-jana-featured-read-more-link {
+	border: 1px dotted #f00;
+}
+
+.dmg-read-more {
+
+	a {
+		color: #007bff;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

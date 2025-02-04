@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "jana/featured-read-more-link",
+	"version": "0.1.0",
+	"title": "Feature Read More",
+	"category": "common",
+	"attributes": {
+		"postId": {
+			"type": "number",
+			"default": 0
+		},
+		"postTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"postLink": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"icon": "smiley",
+	"description": "A plugin to display featured post along with readmore link",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "featured-read-more-link",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
